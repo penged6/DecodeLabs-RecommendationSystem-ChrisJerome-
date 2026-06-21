@@ -1,13 +1,13 @@
 Simple Recommendation System
 A movie recommendation system that matches user-entered interests against a small dataset using similarity scoring, then displays the best matches.
 Requirements
-	•	Python 3.8+ (no external libraries needed)
+Python 3.8+ (no external libraries needed)
 Concepts Demonstrated
 Logic building, pattern matching, recommendation concepts
 What It Does
-	1.	Takes user input — you enter your interests as comma-separated tags (e.g. action, sci-fi)
-	2.	Matches using similarity — each movie in the dataset is scored using Jaccard similarity (shared tags ÷ total unique tags between your interests and the movie’s tags)
-	3.	Displays recommendations — the top 3 highest-scoring movies are shown, ranked with their match scores
+1.	Takes user input — you enter your interests as comma-separated tags (e.g. action, sci-fi)
+2.	Matches using similarity — each movie in the dataset is scored using Jaccard similarity (shared tags ÷ total unique tags between your interests and the movie’s tags)
+3.	Displays recommendations — the top 3 highest-scoring movies are shown, ranked with their match scores
 How to Run
 python recommendation_system.py
 Example Interaction
