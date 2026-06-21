@@ -25,6 +25,6 @@ Based on your interests (action, sci-fi), we recommend:
 How It Works
 Each movie is stored with a list of descriptive tags (genres/themes). When you enter your interests, the system compares your tag set against each movie’s tag set and calculates:
 similarity = (shared tags) / (total unique tags combined)
-Movies are then ranked from highest to lowest score, and the top 3 are displayed. This is a basic form of content-based filtering — the same underlying idea used in real recommendation engines like Netflix or Spotify, just on a much smaller scale.
+Movies are then ranked from highest to lowest score, and the top 3 are displayed. This is a basic form of content-based filtering the same underlying idea used in real recommendation engines like Netflix or Spotify, just on a much smaller scale.
 Customizing
-To use a different dataset (books, music, products), just replace the movies list with your own items and tags — the matching logic stays the same.
+To use a different dataset (books, music, products), just replace the movies list with your own items and tags the matching logic stays the same.
